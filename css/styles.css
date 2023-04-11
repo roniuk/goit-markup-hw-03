@@ -38,21 +38,33 @@ ul {
     letter-spacing: 0.02em;
     color: var(--slate-text);
 }
-
+img {
+    display: block;
+}
 
  /* ---------------------------------- PAGE - HEADER ------------ */
- .page-header > .conteiner1 {
+ .page-header {
+    border-bottom: 1px solid #e7e9fc;
+ }
+ /* .page-header > .conteiner {
       
     display: flex;
     align-items: center;
     padding-left: 64px;
     width: 1440px; 
     outline: #cc1818 solid 2px; 
+ } */
+
+ .conteiner {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
  }
-.logo {
+
+/* .logo {
     padding-top: 10px;
     align-items: center;
-}
+} */
 
  .conteiner {
     width: 1158px; 
@@ -61,11 +73,20 @@ ul {
 
 
   .page-nav {
+    align-items: center;
     list-style: none;
     display: flex;  
     
- }   
+ }  
+ 
+ .menu {
+     gap: 40px;
+ }
+
+
  .menu-item {
+    padding-top: 24px;
+    padding-bottom: 24px;
         display: flex;
         align-items: center;
         margin-left: 5px;
@@ -74,6 +95,8 @@ ul {
         list-style: none;
          padding: 10px;
 }
+
+
 
  .list {
     align-items: center;
@@ -91,6 +114,7 @@ ul {
  }
 
 .logo {
+    margin-right: 76px;
         display: flex;
         align-items: center;
         font-family: Raleway, sans-serif;
@@ -131,6 +155,7 @@ color: var(--navy-blue);
 
 
 .contact-link {
+    gap: 40px;
     padding-left: 24px;
     font-size: 16px;
     line-height: 1.5;
