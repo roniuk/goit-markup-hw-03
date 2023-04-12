@@ -97,7 +97,7 @@ img {
  }
 
 
-  .list {
+  .page-nav > .list {
         display: flex;
         gap: 40px;
         align-items: center; 
@@ -229,7 +229,7 @@ color: var(--base-wait-color);
     margin-left: 156px;
     width: 1128;
 }
-.elem > .card {
+.list-sekond-section > .elem {
     width: calc((100% - 72px) / 4);
 }
 
