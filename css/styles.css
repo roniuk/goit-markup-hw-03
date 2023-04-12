@@ -55,7 +55,7 @@ img {
     outline: #cc1818 solid 2px; 
  } */
 
- .container-header {
+ .container {
     display: flex;
     align-items: center;
     width: 1158px;
