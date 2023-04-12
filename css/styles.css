@@ -97,7 +97,7 @@ img {
  }
 
 
-  .menu {
+  .menu-nav {
         display: flex;
         gap: 40px;
         align-items: center; 
