@@ -46,7 +46,7 @@ img {
  .page-header {
     border-bottom: 1px solid #e7e9fc;
  }
- /* .page-header > .conteiner {
+ /* .page-header > .container {
       
     display: flex;
     align-items: center;
@@ -55,21 +55,12 @@ img {
     outline: #cc1818 solid 2px; 
  } */
 
- .conteiner {
+ .container-header {
     display: flex;
     align-items: center;
     width: 1158px;
     padding-left: 15px;
-    padding-right: 15px;
- }
-
-/* .logo {
-    padding-top: 10px;
-    align-items: center;
-} */
-
- .conteiner {
-    width: 1158px; 
+    /* padding-right: 15px; */
     outline: #404BBF solid 2px;
  }
 
@@ -80,6 +71,7 @@ img {
     display: flex;  
     
  }  
+ 
  
  .menu {
     gap: 40px;
@@ -98,8 +90,6 @@ img {
         list-style: none;
          padding: 10px;
 }
-
-
 
  .list {
     gap: 24px;
@@ -137,6 +127,8 @@ img {
 }
 
 .menu-link {
+    gap: 40px;
+    padding: 24px 0;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -221,16 +213,22 @@ color: var(--base-wait-color);
 }
 /*  ////////////// --- -- INDEX -- SECTION 2 ---//////////////////  */
 
-.name-sektion-elem {
-    margin-bottom: 8px;
-}
+
 .section-one-no-name {
     padding-top: 120px;
     padding-bottom: 120px;
     margin-left: 156px;
     width: 1128;
 }
+.elem > .card {
+    width: calc((100% - 72px) / 4);
+}
 
+.name-sektion-elem {
+    margin-bottom: 8px;
+}
+
+/*  ////////////// --- -- INDEX -- SECTION 3 ---//////////////////  */
 .section-two {
     padding-bottom: 120px;
     margin-left: 156px;
