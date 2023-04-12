@@ -60,7 +60,7 @@ img {
     align-items: center;
     width: 1158px;
     padding-left: 15px;
-    /* padding-right: 15px; */
+    padding-right: 15px;
     outline: #404BBF solid 2px;
  }
 
@@ -77,6 +77,7 @@ img {
     gap: 40px;
     padding-top: 24px;
     padding-bottom: 24px;
+    outline: #404BBF solid 2px;
  }
 
 
