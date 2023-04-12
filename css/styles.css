@@ -96,8 +96,11 @@ img {
      color: var(--navy-blue);
  }
 
-
-  .page-nav > .list {
+.page-nav > .menu {
+display: flex;
+gap: 40px;
+}
+  .page-nav > .menu > .list {
         display: flex;
         gap: 40px;
         align-items: center; 
