@@ -256,6 +256,7 @@ color: var(--base-wait-color);
 .tree-elem {
     width: calc((100% - 48px) / 3 );
 }
+
 /*  /////////   INDEX   SECTION 4  ////////////  */
 
 .section-fo {
@@ -263,13 +264,13 @@ color: var(--base-wait-color);
     padding-bottom: 120px;
 }
 
-.section-fo > .list {
+.section-fo-list {
     display: flex;
     gap: 24px;
 }
-.section-fo .list .elem {
-    background-color: var(--base-wait-color);
-    flex-basis: calc((100% - 72px) / 4);
+
+.section-fo-list-elem {
+    width: calc((100% - 72px) / 4);
 }
 
 .name-worker {
@@ -288,11 +289,11 @@ border-radius: 0px 0px 4px 4px;
 
 /* ////////////////  PORTFOLIO - HTML  ////////////// */
 
-.page-body {
+/* .page-body {
 font-family: Roboto, sans-serif;
 color: var(--slate-text);
 background-color:var(--navy-blue);
-}
+} */
 
 .portfolio-buttons {
 padding: 96px 0 120px;
@@ -331,13 +332,13 @@ padding: 96px 0 120px;
     border-radius: 4px;
 }
 
-.portfolio {
+/* .portfolio {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--navy-blue);
-}
+    color: var(--navy-blue); 
+}*/
 /*   //////////  PORTFOLIO  SECOND-SECTION   ////////  */
 
 .card-set {
@@ -348,7 +349,7 @@ row-gap: 48px;
 }
 
 .port-item {
-width: calc( (100% - 48px) / 3 );
+  width: calc( (100% - 48px) / 3 );
 }
 
 .card-content {
@@ -360,6 +361,7 @@ width: calc( (100% - 48px) / 3 );
 .card-heading {
 margin-bottom: 8px;
 }
+
 .port-text {
         font-size: 16px;
         line-height: 1.5;
