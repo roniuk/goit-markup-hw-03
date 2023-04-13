@@ -218,8 +218,8 @@ color: var(--base-wait-color);
     display: flex;
     gap: 24px;
 }
-.index-elem {
-    width: calc((100% - 72px) / 4);
+.section-two-elem {
+    width: calc((100% - 72px) / 4 );
 }
 
 .name-sektion-elem {
