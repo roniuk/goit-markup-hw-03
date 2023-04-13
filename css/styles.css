@@ -239,15 +239,15 @@ color: var(--base-wait-color);
     display: flex;
     gap: 24px;
 }
-.list-sekond-section > .elem:first {
+.index-elem {
     width: calc((100% - 72px) / 4);
 }
 
-.elem .name-sektion-elem {
+.name-sektion-elem {
     margin-bottom: 8px;
 }
 
-/*  ////////////// --- -- INDEX -- SECTION 3 ---//////////////////  */
+/*  //////////////-- INDEX -- SECTION 3 ---////////////////  */
 .section-three {
     padding-bottom: 120px;
     margin-left: 156px;
@@ -255,11 +255,6 @@ color: var(--base-wait-color);
     width: 1128;
 }
 
-.section-tree {
-    /* align-items: center; */
-    width: 1440px;
-    background-color: var(--cloud);
-}
 .name-sektion-two,
 .name-sektion-three,
 .name-sektion-fo {
@@ -274,17 +269,14 @@ color: var(--base-wait-color);
     text-transform: capitalize;
     color: var(--navy-blue);
 }
+.tree-list {
+    display: flex;
+    gap: 24px;
+}
 
-/* .elem :first {
-    flex-basis: calc((100% - 72px) / 4);
-    margin-top: 120px;
-    margin-bottom: 120px;
-    color: var(--base-wait-color)F; */
-    /* justify-content: space-between; */
-    /* margin-left: 24px; */
-    /* margin-right: 24px; */
-/* } */
-
+.tree-elem {
+ width: calc((100% - 48px) / 3);
+}
 /*  ////////////// --- -- INDEX -- SECTION 4 ---//////////////////  */
 
 .section-fo {
@@ -377,13 +369,14 @@ row-gap: 48px;
 width: calc( (100% - 48px) / 3 );
 }
 
-.card-set .item {
+.port-item {
 width: calc( (100% - 48px) / 3 );
 }
 
 .card-content {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .card-heading {
