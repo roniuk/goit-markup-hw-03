@@ -122,27 +122,6 @@ gap: 40px;
     color: var(--ocean);
 } 
 
- /* .menu-item {
-    
-        display: flex;
-        align-items: center;
-        margin-left: 5px;
-        list-style: none;
-        display: flex;
-        list-style: none;
-         padding: 10px;
-}  */
-
- /* .list {
-    gap: 24px;
-    align-items: center;
-    margin-left: 50px;
-    list-style: none;
-    display: flex;
-    padding: 10px;
-    }  
-  */
-
  body {
     font-family: Roboto, sans-serif;
     color:var(--slate-text);
@@ -275,9 +254,9 @@ color: var(--base-wait-color);
 }
 
 .tree-elem {
- width: calc((100% - 48px) / 3);
+    width: calc((100% - 48px) / 3 );
 }
-/*  ////////////// --- -- INDEX -- SECTION 4 ---//////////////////  */
+/*  /////////   INDEX   SECTION 4  ////////////  */
 
 .section-fo {
     padding-top: 120px;
@@ -307,7 +286,7 @@ border-radius: 0px 0px 4px 4px;
     text-align: center;
 }
 
-/* /////////////////// PORTFOLIO - HTML  ///////////////////// */
+/* ////////////////  PORTFOLIO - HTML  ////////////// */
 
 .page-body {
 font-family: Roboto, sans-serif;
@@ -366,7 +345,6 @@ display: flex;
 flex-wrap: wrap;
 column-gap: 24px;
 row-gap: 48px;
-width: calc( (100% - 48px) / 3 );
 }
 
 .port-item {
@@ -394,7 +372,7 @@ margin-bottom: 8px;
 
 }
 
-/*  ////////////////     FUTER    ////////////////////////////  */
+/*  ////////////////   FUTER  ///////////////////  */
  .footer-site {
     padding: 100px 0;
     background-color: var(--navy-blue);
@@ -452,46 +430,4 @@ margin-bottom: 16px;
     padding-bottom: 48px;
 }
 
-/* //////////////////////////////  */
 
-/* .page-title {
-    margin-top: 20px;
-    font-size: 32px;
-    margin-bottom: 30px;
-} */
-
-/* CONTAINER */
-/* .container2 {
-    width: 1128px;
-     padding-left: 15px;
-    padding-right: 15px; 
-
-    margin-left: auto;
-    margin-right: auto;
-} */
-
-/* CARD SET */
-/* .card-set {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: calc(-1 * var(--card-set-gap));
-    margin-top: calc(-1 * var(--card-set-gap));
-}
-
-.card-set>.item {
-    flex-basis: calc(100% / 3 - var(--card-set-gap));
-    margin-left: var(--card-set-gap);
-    margin-top: var(--card-set-gap);
-} */
-
-/* CARD */
-/* .card {
-    margin-left: 156px;
-    box-shadow: var(--card-shadow);
-    border-radius: 4px;
-    overflow: hidden;
-} */
