@@ -409,6 +409,10 @@ margin-bottom: 16px;
         margin-right: 24px;
 }   
 
+.futer-logo-link {
+    display: inline-block;
+    margin-bottom: 16px;
+}
 .footer .logo:hover,
 .footer .logo:focus {
     color: var(---base-wait-color);
