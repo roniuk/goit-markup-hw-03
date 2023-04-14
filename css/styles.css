@@ -221,6 +221,7 @@ color: var(--base-wait-color);
 
 
 .section-two-elem {
+    flex-basis: auto;
     width: calc((100% - 72px) / 4);
 }
 
@@ -256,6 +257,7 @@ color: var(--base-wait-color);
 }
 
 .tree-elem {
+    flex-basis: auto;
     width: calc((100% - 48px) / 3 );
 }
 
@@ -272,6 +274,7 @@ color: var(--base-wait-color);
 }
 
 .section-fo-list-elem {
+    flex-basis: auto;
     width: calc((100% - 72px) / 4);
 }
 
@@ -351,6 +354,7 @@ row-gap: 48px;
 }
 
 .port-item {
+    flex-basis: auto;
   width: calc( (100% - 48px) / 3 );
 }
 
