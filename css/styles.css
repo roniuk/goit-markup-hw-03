@@ -12,6 +12,12 @@
                 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
         }
 
+body {
+        font-family: Roboto, sans-serif;
+        color: var(--slate-text);
+        background-color: var(--base-wait-color);
+}
+
 h1,
 h2,
 h3,
@@ -24,6 +30,8 @@ ul {
 }
 
 .ul {
+    margin-top: 0;
+    margin-bottom: 0;
     padding-left: 0;
 }
 
@@ -47,11 +55,18 @@ ul {
 img {
     display: block;
 }
+.divheadindex {
+    display: flex;
+    align-items: center;
+}
 
 .container {
     width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
  /* ---------------------------------- PAGE - HEADER ------------ */
  .page-header {
@@ -82,22 +97,18 @@ img {
     align-items: center; 
  }   
   
- .logo {
-     margin-right: 76px;
-     display: flex;
-     align-items: center;
+ .logoone {
      font-family: Raleway, sans-serif;
      font-weight: 800;
      font-size: 18px;
      line-height: 1.17;
-     /* identical to box height, or 117% */
      letter-spacing: 0.03em;
      text-transform: uppercase;
      color: var(--iris);
-     text-decoration: none;
+     margin-right: 76px;
  }
 
- .logo>.span-logo-header {
+ .logo > .span-logo-header {
      color: var(--navy-blue);
  }
 
@@ -132,11 +143,6 @@ gap: 40px;
     color: var(--ocean);
 } 
 
- body {
-    font-family: Roboto, sans-serif;
-    color:var(--slate-text);
-    background-color:var(--base-wait-color);
- }
 
 .address .menu {
     display: flex;
@@ -165,10 +171,10 @@ gap: 40px;
 /* /////////////////  INDEX - HTML   //////////////////////// */
 
 .hero-image {
+    background-color: var(--navy-blue);
     padding-top: 188px;
     padding-bottom: 188px;
-    background-color:var(--navy-blue);
-    width: 1440px;
+    /* width: 1440px; */
 
 }
 
@@ -390,9 +396,10 @@ margin-bottom: 8px;
 
 /*  ////////////////   FUTER  ///////////////////  */
  .footer-site {
-    padding: 100px 0;
     background-color: var(--navy-blue);
-    width: 1440px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    /* width: 1440px; */
 } 
 
 .footer-site .logo{
@@ -443,11 +450,13 @@ margin-bottom: 16px;
     line-height:1.17;
     letter-spacing: 0.02em;      
 }
-.footer-site .container {
+
+
+/* .footer-site .container {
     width: 264px;
     padding-top: 48px;
     padding-left: 52px;
     padding-bottom: 48px;
-}
+} */
 
 
