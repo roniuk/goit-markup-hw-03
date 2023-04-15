@@ -321,9 +321,9 @@ border-radius: 0px 0px 4px 4px;
 /* ////////////////  PORTFOLIO - HTML  ////////////// */
 
 .portfolio-buttons {
-    padding: 96px 0 120px;
-    align-items: center;
-    width: 1128;
+    padding-top: 96px;
+    padding-bottom: 120px;
+    /* width: 1128; */
 }
 
 .portfolio-buttons .list {
@@ -361,10 +361,11 @@ border-radius: 0px 0px 4px 4px;
 /*   //////////  PORTFOLIO  SECOND-SECTION   ////////  */
 
 .card-set {
+    row-gap: 48px;
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
-    row-gap: 48px;
+    
     /* align-items: center; */
     /* width: 1128; */
 }
@@ -385,6 +386,7 @@ border-radius: 0px 0px 4px 4px;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
+    margin-bottom: 8px;
     /* identical to box height, or 120% */
     
     letter-spacing: 0.02em;
