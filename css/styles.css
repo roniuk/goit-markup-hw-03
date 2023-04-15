@@ -320,16 +320,9 @@ border-radius: 0px 0px 4px 4px;
 
 /* ////////////////  PORTFOLIO - HTML  ////////////// */
 
-/* .page-body {
-font-family: Roboto, sans-serif;
-color: var(--slate-text);
-background-color:var(--navy-blue);
-} */
-
 .portfolio-buttons {
-padding: 96px 0 120px;
-
-align-items: center;
+    padding: 96px 0 120px;
+    align-items: center;
     width: 1128;
 }
 
@@ -365,20 +358,15 @@ align-items: center;
     border-radius: 4px;
 }
 
-/* .portfolio {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--navy-blue); 
-}*/
 /*   //////////  PORTFOLIO  SECOND-SECTION   ////////  */
 
 .card-set {
-display: flex;
-flex-wrap: wrap;
-column-gap: 24px;
-row-gap: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    align-items: center;
+    width: 1128;
 }
 
 .port-item {
