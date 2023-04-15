@@ -365,12 +365,11 @@ border-radius: 0px 0px 4px 4px;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    align-items: center;
-    width: 1128;
+    /* align-items: center; */
+    /* width: 1128; */
 }
 
 .port-item {
-    /* flex-basis: auto; */
     width: calc( (100% - 48px) / 3);
 }
 
@@ -381,10 +380,19 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .card-heading {
-margin-bottom: 8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height, or 120% */
+    
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+    margin-bottom: 8px;
 }
 
-.port-text {
+.card-text {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
