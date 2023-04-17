@@ -88,6 +88,9 @@ h3 {
 
  /* ---------------------------------- PAGE - HEADER ------------ */
  
+ .page-header {
+    border-bottom: 1px solid #e7e9fc;
+ }
    .page-nav {
     display: flex;
     align-items: center; 
@@ -182,9 +185,11 @@ margin-right: auto;
     margin-right: auto;
 }
 .hero-imag-name {
-    /* max-width: 496px;
-    margin-top: 24px; */
-    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 496px;
+    margin-top: 24px; 
+    margin-bottom: 48px; 
 font-size: 56px;
 line-height: 1.07;
 text-align: center;
@@ -194,6 +199,7 @@ color: var(--base-wait-color);
 }
 
 .btn {
+    border: none;
     display: block;
     min-width: 169px;
     height: 56px;
@@ -270,7 +276,7 @@ color: var(--base-wait-color);
 }
 /*  //////////////-- INDEX -- SECTION 3 ---////////////////  */
 .section-three {
-    /* padding-bottom: 120px; */
+    padding-bottom: 120px; 
 
     /* margin-left: 156px; */
     align-items: center;
@@ -304,6 +310,7 @@ color: var(--base-wait-color);
 /*  /////////   INDEX   SECTION 4  ////////////  */
 
 .section-fo {
+    padding: 120px 0;
     background-color: var(--cloud); 
         padding-top: 106px; 
         padding-bottom: 246px;
