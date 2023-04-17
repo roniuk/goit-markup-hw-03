@@ -336,17 +336,17 @@ padding: 32px 16px;
 border-radius: 0px 0px 4px 4px;
 }
 
-.subname-fo {
+/* .subname-fo {
     text-align: center;
     margin-bottom: 8px;
-}
+} */
 
 .section-fo .text {
-    font-family: 'Roboto';
+    /* font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 24px; */
         /* or 150% */
     
     letter-spacing: 0.02em;
