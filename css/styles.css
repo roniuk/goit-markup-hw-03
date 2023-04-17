@@ -310,10 +310,11 @@ color: var(--base-wait-color);
 /*  /////////   INDEX   SECTION 4  ////////////  */
 
 .section-fo {
-    padding: 120px 0;
-    background-color: var(--cloud); 
-        padding-top: 106px; 
-        padding-bottom: 246px;
+        padding-top: 120px;
+        padding-bottom: 120px;
+        background-color: var(--cloud); 
+        /* padding-top: 106px; 
+        padding-bottom: 246px; */
         align-items: center;
         /* width: 1128;   */
         margin-bottom: 71px; 
