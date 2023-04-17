@@ -537,7 +537,7 @@ width: 264px;
 }
 .footer-list {
     display: flex;
-    display: inline-block; 
+    /* display: inline-block;  */
     align-items: center;
     
 }
