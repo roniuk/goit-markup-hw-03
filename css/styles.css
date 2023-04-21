@@ -130,8 +130,17 @@ margin-right: auto;
         align-items: center; 
         list-style: none;
   }
-
- .menu-link, .contact-link {
+.menu-link {
+padding-top: 24px;
+    padding-bottom: 24px;
+    font-weight: 500;
+    display: block;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+  .contact-link {
     
     padding-top: 24px;
     padding-bottom: 24px;
@@ -440,7 +449,6 @@ border-radius: 0px 0px 4px 4px;
     background-color: var(--navy-blue);
     padding-top: 100px;
     padding-bottom: 100px;
-    margin-bottom: 16px;
 } 
 
 
@@ -473,10 +481,6 @@ border-radius: 0px 0px 4px 4px;
 .footer-text {
         max-width: 264px; 
         display: block;
-        margin-block-start: 1em;
-        margin-block-end: 1em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         font-size: 16px;
